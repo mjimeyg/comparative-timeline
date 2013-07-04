@@ -5,30 +5,30 @@ A JQuery timeline that allows a comparison of events of various entities, i.e. h
 
 Data Structure
 
-{"category-title":
-
-  "id":"number",
-  "title":"string",
-  "description":"string",
-  "link":"string",
-  "image":"string",
-  "events":{
+  {"category-title":
   
     "id":"number",
     "title":"string",
     "description":"string",
     "link":"string",
     "image":"string",
-    "date":{
+    "events":{
     
-        "day":"number",
-        "month":"number",
-        "year":"number"
+      "id":"number",
+      "title":"string",
+      "description":"string",
+      "link":"string",
+      "image":"string",
+      "date":{
+      
+          "day":"number",
+          "month":"number",
+          "year":"number"
+      
+          }   
+      
+        }
     
-        }   
-    
-      }
+    }
   
   }
-
-}
