@@ -6,6 +6,7 @@ A JQuery timeline that allows a comparison of events of various entities, i.e. h
 Data Structure
 
 {"category-title":
+
   "id":"number",
   "title":"string",
   "description":"string",
