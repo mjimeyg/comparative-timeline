@@ -1,0 +1,235 @@
+.timeline{
+	position: relative;
+	height: 800px;
+	width: 100%;
+	border-color: black;
+	border-width: medium;
+	border-style: solid;
+}
+
+.csTimelineEvent{
+	margin-right: 3px;
+}
+
+.csTimelineEventHover{
+	border-color: black;
+	border-width: thin;
+	border-style: solid;
+	cursor: pointer;
+}
+
+.csTimelineNavigator{
+	background-color: grey;
+}
+
+.csTimelineSpacer{
+	width: 100px;
+	height: 40px;
+	border-right-color: black;
+	border-right-style: solid;
+	border-right-width:thin;
+}
+
+.csTimelineNavigatorScrollContainer{
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: medium;
+}
+
+.csTimelineCategoryBarScrollContainer{
+	border-right-color: black;
+	border-right-style: solid;
+	border-right-width: medium;
+}
+
+.csTimelineCategory{
+	border-color: black;
+	border-style: solid;
+	border-width: thin;
+	
+}
+
+.csTimelineOddCategory{
+	background-color: #FFF;
+}
+
+.csTimelineEvenCategory{
+	background-color: #DDD;
+}
+
+.csTimelineCategoryBarItem{
+	height: 100%;
+	width: 100%;
+}
+
+.csTimelineOddCategoryBarItem{
+	background-color: #DDD;
+}
+
+.csTimelineEvenCategoryBarItem{
+	background-color: #CCC;
+}
+
+.csTimelineCategoryImage{
+	height: 50px;
+}
+
+.csTimelineCategoryTitle{
+	font-family:"Comic Sans MS", cursive;
+	font-size:9px;
+}
+
+.csTimelineEventImage{
+	width: 50px;
+}
+
+.csTimelinePeriodContainerLeft{
+	background-image:url(../images/back.png);
+	background-repeat:no-repeat;
+	width: 48px;
+	height:48px;
+}
+
+.csTimelinePeriodContainerRight{
+	background-image:url(../images/forward.png);
+	background-repeat:no-repeat;
+	width: 48px;
+	height:48px;
+}
+
+.csPeriodContainer{
+	margin: 2px;
+}
+
+.csTimelineDialogModal{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 9998;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+	background-color: #000;
+}
+
+.csTimelineDialog{
+	z-index: 9999;
+	
+	height: 400px;
+	width: 400px;
+	padding: 5px;
+	background-color: white;
+	overflow: hidden;
+	/*position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -50%;
+	margin-left: -50%;*/
+}
+
+.csTimelineDialogContent{
+	height: 390px;
+	width: 390px;
+	overflow-y: scroll;	
+}
+
+.csTimelineDialogExitButton{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 10px;
+	height: 10px;
+	background-color: red;
+}
+
+.csTimelineNavigatorControlPanel{
+	background-color: #00CC66;
+}
+
+.csTimelineNavigatorControlPanelTab{
+	background-color: #66CCFF;
+	background-image:url(../images/chevron.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	border-color: black;
+	border-width: medium;
+	border-style: solid;
+}
+
+.csTimelineNavigatorControlPanelContent{
+	clear: both;
+	margin: 10px;
+}
+
+.csTimelineNavigatorControlPanelYearsContainer{
+	margin: auto;
+}
+
+.csTimelineNavigatorControlPanelYearsLabel{
+	float: left;
+}
+
+.csTimelineNavigatorControlPanelYearsLabel{
+	float: left;
+}
+
+.csTimelineNavigatorControlPanelYears{
+	/*position:absolute; 
+	top:5px; 
+	left: 300px; 
+	margin: 50px;*/
+	float: left;
+	border: 1px solid #111;
+	background: transparent;
+	width: 150px;
+	padding: 5px 35px 5px 5px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	height: 34px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(http://www.stackoverflow.com/favicon.ico) 96% / 15% no-repeat #eee;
+}
+
+.csTimelineNavigatorControlPanelGoYear{
+	/*position: absolute;
+	top: 5px;
+	left: 10px;*/
+	float:left;
+	height:25px;
+	width: 25px;
+	background-image:url(../images/go.png);
+}
+
+.csTimelineNavigatorControlPanelCategoriesContainer{
+	margin-left: 400px;
+}
+
+.csTimelineNavigatorControlPanelGoCategory{
+	/*position: absolute;
+	top: 5px;
+	left:500px;*/
+	float: left;
+	height:25px;
+	width: 25px;
+	background-image:url(../images/go.png);
+}
+
+.csTimelineNavigatorControlPanelCategories{
+	/*position: absolute;
+	top: 100px;
+	left: 400px;*/
+	float: left;
+	border: 1px solid #111;
+	background: transparent;
+	width: 350px;
+	padding: 5px 35px 5px 5px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	height: 34px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(http://www.stackoverflow.com/favicon.ico) 96% / 15% no-repeat #eee;
+}
